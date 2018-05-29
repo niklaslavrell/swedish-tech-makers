@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "dependencies": {
+    "gatsby": "^1.9.247",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby-plugin-typography": "^1.7.18",
+    "npm": "^6.1.0",
+    "react-helmet": "^5.2.0",
+    "typography": "^0.16.17",
+    "typography-theme-doelger": "^0.15.11"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build && surge public --domain www.swedishtechmakers.com",
+    "publish": "surge public --domain www.swedishtechmakers.com"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.0"
+  }
+}
