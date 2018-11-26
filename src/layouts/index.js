@@ -8,7 +8,21 @@ const Layout = ({ children, data }) => (
       title={data.site.siteMetadata.title}
       meta={[
         { name: 'description', content: 'Private community of tech makers' },
-        { name: 'keywords', content: 'swedish, tech, maker, nomad, freelance' }
+        { name: 'keywords', content: 'swedish, tech, maker, nomad, freelance' },
+        { property: 'og:title', content: data.site.siteMetadata.title },
+        { property: 'og:url', content: 'https://www.swedishtechmakers.com' },
+        {
+          property: 'og:description',
+          content: 'Private community of tech makers',
+        },
+        {
+          property: 'og:image',
+          content: 'https://www.swedishtechmaker.com/rocket.png',
+        },
+        { property: 'og:image:type', content: 'image/png' },
+        { property: 'og:image:width', content: '380' },
+        { property: 'og:image:height', content: '380' },
+        { property: 'og:type', content: 'website' },
       ]}
     />
     <div
@@ -16,7 +30,7 @@ const Layout = ({ children, data }) => (
         margin: '6rem auto',
         maxWidth: 870,
         padding: '20px',
-        paddingTop: 0
+        paddingTop: 0,
       }}
     >
       {children()}
@@ -25,7 +39,7 @@ const Layout = ({ children, data }) => (
 )
 
 Layout.propTypes = {
-  children: PropTypes.func
+  children: PropTypes.func,
 }
 
 export default Layout
