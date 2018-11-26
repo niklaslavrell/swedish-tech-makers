@@ -17,7 +17,7 @@ const Layout = ({ children, data }) => (
         },
         {
           property: 'og:image',
-          content: 'https://www.swedishtechmaker.com/rocket.png',
+          content: 'https://www.swedishtechmakers.com/rocket.png',
         },
         { property: 'og:image:type', content: 'image/png' },
         { property: 'og:image:width', content: '380' },
