@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Swedish Tech Makers',
+    siteUrl: `https://www.swedishtechmakers.com`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -16,5 +17,6 @@ module.exports = {
         trackingId: 'UA-117499442-4',
       },
     },
+    `gatsby-plugin-sitemap`,
   ],
 }
