@@ -1,7 +1,7 @@
 {
   "private": true,
   "dependencies": {
-    "gatsby": "^1.9.247",
+    "gatsby": "^1.9.279",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-react-helmet": "^2.0.11",
