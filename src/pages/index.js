@@ -1,4 +1,5 @@
 import React from 'react'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const IndexPage = () => (
   <div>
@@ -15,9 +16,9 @@ const IndexPage = () => (
       </span>
       <br />
       Just{' '}
-      <a href="https://niklaslavrell.typeform.com/to/TNt1WT">
+      <OutboundLink href="https://niklaslavrell.typeform.com/to/TNt1WT">
         fill in this form
-      </a>{' '}
+      </OutboundLink>{' '}
       and we'll be in touch!
     </p>
     <p>
@@ -27,22 +28,14 @@ const IndexPage = () => (
       <br />We are a selected group of professionals holding competences across
       development, UX, product, growth, and more - but most importantly - we get
       stuff shipped. Send an email to{' '}
-      <a
-        href="mailto:hi@swedishtechmakers.com?subject=Can we work together? 👩‍💻"
-        target="_blank"
-      >
+      <OutboundLink href="mailto:hi@swedishtechmakers.com?subject=Can we work together? 👩‍💻">
         hi@swedishtechmakers.com
-      </a>{' '}
+      </OutboundLink>{' '}
       to find out more.
     </p>
     <p>
-      /<a href="https://www.lavrell.se" target="_blank">
-        Niklas
-      </a>{' '}
-      &{' '}
-      <a href="https://www.hannasoderquist.se" target="_blank">
-        Hanna
-      </a>
+      /<OutboundLink href="https://www.lavrell.se">Niklas</OutboundLink> &{' '}
+      <OutboundLink href="https://www.hannasoderquist.se">Hanna</OutboundLink>
     </p>
   </div>
 )
