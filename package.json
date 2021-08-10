@@ -1,5 +1,8 @@
 {
   "private": true,
+  "engines": {
+    "node": "14"
+  },
   "dependencies": {
     "gatsby": "^1.9.279",
     "gatsby-link": "^1.6.46",
