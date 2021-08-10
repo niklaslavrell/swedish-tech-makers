@@ -10,7 +10,6 @@
     "gatsby-plugin-react-helmet": "^2.0.11",
     "gatsby-plugin-sitemap": "^1.2.25",
     "gatsby-plugin-typography": "^1.7.19",
-    "npm": "^6.1.0",
     "react-helmet": "^5.2.0",
     "typography": "^0.16.18",
     "typography-theme-doelger": "^0.15.11"
