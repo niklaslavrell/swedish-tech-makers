@@ -1,4 +1,6 @@
-# swedish-tech-makers
+# Swedish Tech Makers
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/41187084-9014-4eea-bfba-c1177ae59065/deploy-status)](https://app.netlify.com/sites/swedishtechmakers/deploys)
 
 Landing page for http://www.swedishtechmakers.com.
 
