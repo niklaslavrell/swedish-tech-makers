@@ -1,7 +1,7 @@
 {
   "private": true,
   "engines": {
-    "node": "14"
+    "node": "16"
   },
   "dependencies": {
     "gatsby": "^1.9.279",
