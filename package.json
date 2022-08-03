@@ -1,4 +1,5 @@
 {
+  "name": "swedish-tech-makers",
   "private": true,
   "engines": {
     "node": "16"
